@@ -15,7 +15,7 @@ if (PHP_SAPI != 'cli') exit("It only works in CLI mode!\n");
 define('GENERATE_STATIC', 1);
 
 // в этом режиме $_SERVER['HTTP_HOST'] не работает, прописываем свой вариант
-// если в стрнаицах не используется константа SITE_URL, то можно не менять
+// если в страницах не используется константа SITE_URL, то можно не менять
 // если используется, то укажите нужный хост и протокол
 define('SITE_HOST', 'localhost');
 define('SITE_PROTOCOL', 'http');
